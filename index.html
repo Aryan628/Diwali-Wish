@@ -50,9 +50,12 @@
       color: #000;
     }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1000px) {
       .card {
         width: 100%;
+      }
+      .light{
+        transform: translateY(40%);
       }
     }
 
@@ -69,7 +72,6 @@
     .light>* {
       position: absolute;
     }
-
     .candle {
       background-color: #b6131e;
       width: 100px;
@@ -211,17 +213,8 @@
         transform: translate(1px, -2px) rotate(0deg);
       }
     }
-
-    .animated-text {
+    .text{
       overflow: hidden;
-      /* Hide overflow to prevent extra padding */
-    }
-
-    @media screen and (max-width: 600px) {
-      .ml15 {
-        font-size: 1.5em;
-        letter-spacing: 0.2em;
-      }
     }
   </style>
 </head>
@@ -238,7 +231,7 @@
         </div>
         <h1><b>Aryan Baranwal</b></h1>
         <h2>Wishing you</h2>
-        <div class="animated-text">
+        <div class="text">
           <h1 class="ml15">
             <span class="word">Happy</span>
             <span class="word">Diwali</span>
